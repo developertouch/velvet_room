@@ -223,13 +223,11 @@ class _beds_screenState extends State<beds_screen> {
                           ),),
                         ],
                       ),
-
                     ),
                     SizedBox(height: 30,),
                     InkWell(
                       onTap: (){
                         Navigator.of(context).push(MaterialPageRoute(builder: (_)=>cart_screen()));
-
                       },
                       child: Container(
                         height: 55,
